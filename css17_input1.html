@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[class=text1] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+
+
+
+input[class=text2] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+
+input[class=searchwala] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('./images/tick.jpg');
+     
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+</style>
+</head>
+<body>
+
+<p>Padded text fields:</p>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Password</label>
+  <input type="Password" id="lname" name="lname">
+  
+</form>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" class="text1" id="fname" name="fname">
+  <label for="lname">Last Name</label>
+  <input type="text" class="text1" id="lname" name="lname">
+</form>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" class="text2" id="fname" name="fname">
+  <label for="lname">Last Name</label>
+  <input type="text" class="text2" id="lname" name="lname">
+</form>
+
+
+<p>Input with icon:</p>
+
+<form>
+  <input type="text" class="searchwala" name="search" placeholder="Search..">
+<input type="button" value="test">
+<input type="submit">
+<input type="reset">
+
+
+  </form>
+
+</body>
+</html>
